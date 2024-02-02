@@ -299,7 +299,7 @@ function reveal() {
   video.setAttribute("autoplay", "autoplay");
   video.setAttribute("width", "300");
   video.setAttribute("height", "auto");
-  video.setAttribute("style", "margin-top: 60px;");
+  // video.setAttribute("style", "margin-top: 60px;");
   document.querySelector('#video').appendChild(video);
 }
 
