@@ -30,12 +30,13 @@ div#beach {
 
 div#video {
   position: absolute;
-  right: 243px;
+  padding-top: 20px;
+  right: 284px;
   bottom: 200px;
 }
 
 div#video iframe {
-  width: 255px;
+  width: 284px;
   height: 200px;
 }
 

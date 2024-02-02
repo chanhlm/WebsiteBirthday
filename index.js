@@ -294,10 +294,12 @@ function reveal() {
   }
 
   var video = document.createElement("video");
-  video.setAttribute("src", "../video.mp4");
+  video.setAttribute("src", "video.mp4");
   video.setAttribute("controls", "controls");
   video.setAttribute("autoplay", "autoplay");
   video.setAttribute("width", "300");
+  video.setAttribute("height", "auto");
+  video.setAttribute("style", "position: absolute; right: 284px; bottom: 200px;");
   document.querySelector('#video').appendChild(video);
 }
 
