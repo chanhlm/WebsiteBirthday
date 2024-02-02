@@ -30,7 +30,7 @@ div#beach {
 
 div#video {
   position: absolute;
-  padding-top: 40px;
+  padding-top: 60px;
   right: 284px;
   bottom: 200px;
 }
@@ -445,7 +445,7 @@ div#sea {
   }
 
   div#video {
-    padding-top: 40px;
+    padding-top: 60px;
     right: 284px;
     bottom: 200px;
   }
