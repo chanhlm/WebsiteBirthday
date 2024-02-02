@@ -445,6 +445,7 @@ div#sea {
   }
 
   div#video {
+    padding-top: 40px;
     right: 284px;
     bottom: 200px;
   }
