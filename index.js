@@ -299,6 +299,7 @@ function reveal() {
   video.setAttribute("autoplay", "autoplay");
   video.setAttribute("width", "300");
   video.setAttribute("height", "auto");
+  
   document.querySelector('#video').appendChild(video);
 }
 
