@@ -30,7 +30,7 @@ div#beach {
 
 div#video {
   position: absolute;
-  margin-top: 40px;
+  margin-top: 100px;
   right: 284px;
   bottom: 200px;
 }
@@ -445,7 +445,7 @@ div#sea {
   }
 
   div#video {
-    margin-top: 40px;
+    margin-top: 100px;
     right: 284px;
     bottom: 200px;
   }
