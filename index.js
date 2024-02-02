@@ -299,7 +299,7 @@ function reveal() {
   video.setAttribute("autoplay", "autoplay");
   video.setAttribute("width", "300");
   video.setAttribute("height", "auto");
-  
+  wideo.setAttribute("style", "padding-top: 40px;");
   document.querySelector('#video').appendChild(video);
 }
 
