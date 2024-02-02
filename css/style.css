@@ -36,8 +36,9 @@ div#video {
 
 div#video iframe {
   width: 255px;
-  height: 155px;
+  height: 200px;
 }
+
 
 #people {
   position: absolute;

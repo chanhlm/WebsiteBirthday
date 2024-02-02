@@ -293,11 +293,11 @@ function reveal() {
     w = 255;h = 155;
   }
 
-  var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/gbICivOO26U?controls=0&loop=1&autoplay=1");
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
-  ifrm.style.border = 'none';
-  document.querySelector('#video').appendChild(ifrm);
+  var video = document.createElement("video");
+  video.setAttribute("src", "../video.mp4");
+  video.setAttribute("controls", "controls");
+  video.setAttribute("autoplay", "autoplay");
+  video.setAttribute("width", "300");
+  document.querySelector('#video').appendChild(video);
 }
 
